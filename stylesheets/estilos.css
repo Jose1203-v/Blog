@@ -1,0 +1,128 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+body main {
+  width: 1000px;
+  box-sizing: border-box;
+  margin-bottom: 50px;
+}
+
+.header-main {
+  height: 250px;
+  flex: auto;
+  background: url(../img/backgound_header.jpg);
+  background-size: contain;
+  width: 1000px;
+  margin-bottom: 50px;
+}
+.header-main div {
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.7);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.header-main__title {
+  font: bold 55px Yellowtail;
+  color: #cccbcb;
+}
+.header-main__title span {
+  color: #419ae2;
+}
+
+.main-footer {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 1000px;
+  height: 200px;
+  border-top: solid 2px black;
+}
+
+.main-footer__title {
+  font: bold 55px Yellowtail;
+  color: black;
+}
+.main-footer__title span {
+  color: #419ae2;
+}
+
+.main-footer__content-info h2 {
+  font: 400 24px Roboto;
+  margin-bottom: 10px;
+  padding-bottom: 2px;
+  border-bottom: solid 1px #419ae2;
+}
+.main-footer__content-info address {
+  display: flex;
+  flex-direction: column;
+}
+.main-footer__content-info address a {
+  text-decoration: none;
+  font: 300 14px "Open Sans";
+  margin-bottom: 5px;
+  color: #242424;
+}
+
+.main-article {
+  display: flex;
+  justify-content: space-between;
+  box-sizing: border-box;
+  padding: 20px;
+  margin-bottom: 30px;
+  height: 400px;
+  border-radius: 20px;
+  box-shadow: rgba(14, 13, 13, 0.4) 5px 5px 5px;
+}
+.main-article img {
+  max-height: 380px;
+  max-width: 300px;
+  box-shadow: rgba(14, 13, 13, 0.4) 2px 2px 10px;
+}
+.main-article div {
+  overflow: scroll;
+  box-sizing: border-box;
+  max-width: 600px;
+  padding: 10px;
+}
+.main-article div::-webkit-scrollbar {
+  width: 5px;
+  margin-right: 2px;
+}
+.main-article div::-webkit-scrollbar-thumb {
+  background: #419ae2;
+  border-radius: 2px;
+}
+
+.main-article__title {
+  text-align: center;
+  font: bold 30px Roboto;
+  color: #161616;
+  padding-bottom: 19px;
+  margin-bottom: 15px;
+  border-bottom: solid 1px #419ae2;
+}
+
+.main-article__text {
+  text-align: justify;
+  color: #252525;
+  text-indent: 10px;
+  margin-bottom: 15px;
+  font: 300 16px "Open Sans";
+}
+
+#a4 h3 {
+  font: 400 24px Roboto;
+  padding-bottom: 5px;
+}
+
+/*# sourceMappingURL=estilos.css.map */

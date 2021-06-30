@@ -1,0 +1,37 @@
+.main-footer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 1000px;
+    height: 200px;
+    border-top: solid 2px black;
+}
+
+.main-footer__title {
+    font: bold 55px Yellowtail;
+    color: black;
+    
+    span {
+        color: rgb(65, 154, 226);
+    }
+}
+
+.main-footer__content-info {
+    h2{
+        font: 400 24px Roboto;
+        margin-bottom: 10px;
+        padding-bottom: 2px;
+        border-bottom: solid 1px rgb(65, 154, 226);
+    }
+    address {
+        display: flex;
+        flex-direction: column;
+        a{
+            text-decoration: none;
+            font: 300 14px "Open Sans";
+            margin-bottom: 5px;
+            color: rgb(36, 36, 36);
+        }
+    }
+}
+
